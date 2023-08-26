@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/bufbuild/connect-go"
-	"github.com/easyCZ/connect-go-prometheus/gen/greet"
-	"github.com/easyCZ/connect-go-prometheus/gen/greet/greetconnect"
+	"connectrpc.com/connect"
+	"github.com/ericvolp12/connect-go-prometheus/gen/greet"
+	"github.com/ericvolp12/connect-go-prometheus/gen/greet/greetconnect"
 	prom "github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/require"

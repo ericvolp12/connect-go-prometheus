@@ -3,7 +3,7 @@ package connect_go_prometheus
 import (
 	"time"
 
-	"github.com/bufbuild/connect-go"
+	"connectrpc.com/connect"
 )
 
 type streamingConn struct {

@@ -3,9 +3,9 @@ plugins:
   - name: go
     out: gen
     opt:
-     - module=github.com/easyCZ/connect-go-prometheus/gen
+     - module=github.com/ericvolp12/connect-go-prometheus/gen
 
   - name: connect-go
     out: gen
     opt:
-     - module=github.com/easyCZ/connect-go-prometheus/gen
+     - module=github.com/ericvolp12/connect-go-prometheus/gen

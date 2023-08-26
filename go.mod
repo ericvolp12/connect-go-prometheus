@@ -3,8 +3,7 @@ module github.com/ericvolp12/connect-go-prometheus
 go 1.20
 
 require (
-	github.com/bufbuild/connect-go v1.10.0
-	github.com/easyCZ/connect-go-prometheus v0.0.1
+	connectrpc.com/connect v1.11.1
 	github.com/prometheus/client_golang v1.13.0
 	github.com/stretchr/testify v1.4.0
 	google.golang.org/protobuf v1.31.0
